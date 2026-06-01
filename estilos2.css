@@ -1,0 +1,37 @@
+body{
+    background-color: #d5c8b9;
+    margin: 0;
+}
+.menu{
+    background-color: #c7b6a2;
+    display: flex;
+    justify-content: space-evenly;
+     align-items: center;
+    padding: 15px 30px;
+    gap: 25px;
+}
+.menu a:hover{
+    color: #1a2536;
+    border-bottom: 2px solid #c9a063;
+}
+.deuses{
+    background-color: #ffffff;
+    width: 325px;
+    height: 750px;
+    padding: 10px 10px 20px 10px;
+}
+.deuses img{
+    width: 225px;
+    height: auto;
+}
+.galeria{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+h2{
+    color: #1a2536;
+}
+p strong{
+    color: #1a2536;
+}
