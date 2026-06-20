@@ -1,0 +1,45 @@
+body {
+    background-color: #d5c8b9;
+    margin: 0;
+}
+
+.menu {
+    background-color: #c7b6a2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 25px;
+}
+
+.menu a:hover {
+    color: #1a2536;
+    border-bottom: 2px solid #c9a063;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+h1, h2, p {
+    margin-left: 10px;
+}
+
+.recommend {
+    display: flow-root;
+    margin-bottom: 20px;
+}
+
+.recommend img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.recommend iframe {
+    float: left;
+    margin-left: 10px;
+}
