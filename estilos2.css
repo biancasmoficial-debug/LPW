@@ -44,10 +44,6 @@ h1 {
     gap: 20px;
 }
 
-h2 {
-    color: #1a2536;
-}
-
-p strong {
+h2, p strong {
     color: #1a2536;
 }

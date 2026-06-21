@@ -26,13 +26,17 @@ h1, h2, p {
     margin-left: 10px;
 }
 
+h2, p strong {
+    color: #1a2536;
+}
+
 .recommend {
-    display: flow-root;
+    display: flex;
+    align-items: flex-end;
     margin-bottom: 20px;
 }
 
 .recommend img {
-    float: left;
     width: 200px;
     height: auto;
     margin-right: 20px;
@@ -40,7 +44,10 @@ h1, h2, p {
 }
 
 .recommend iframe {
-    float: left;
     margin-right: 20px;
     margin-left: 10px;
+}
+
+.descricao {
+    max-width: 50%;
 }
