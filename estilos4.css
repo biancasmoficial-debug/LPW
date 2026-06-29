@@ -1,53 +1,99 @@
 body {
-    background-color: #d5c8b9;
-    margin: 0;
+  background-color: #d5c8b9;
+  margin: 0;
 }
 
-.menu {
-    background-color: #c7b6a2;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 15px 30px;
-    gap: 25px;
+header {
+  background-color: #c7b6a2;
+  padding-top: 10px;
 }
 
-.menu a:hover {
-    color: #1a2536;
-    border-bottom: 2px solid #c9a063;
+header h1 {
+  text-align: center;
+  margin: 0 0 15px;
+  font-family: "Caesar dressing", serif;
 }
 
-.menu a {
-    color: black;
-    text-decoration: none;
+nav {
+  background-color: #8a6f4d;
+  padding: 10px;
 }
 
-h1, h2, p {
-    margin-left: 10px;
+#menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+  font-family: "Lora", serif;
 }
 
-h2, p strong {
-    color: #1a2536;
+#menu a {
+  color: black;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: #1a2536;
+  border-bottom: 2px solid #c9a063;
+}
+
+#shimeji {
+  position: fixed;
+  bottom: 0;
+  left: 100px;
+
+  width: 96px;
+
+  user-select: none;
+  cursor: grab;
+
+  z-index: 999999;
+
+  transition: transform 0.15s linear;
+}
+
+h1,
+h2 {
+  margin-left: 10px;
+  font-family: "Cinzel", serif;
+}
+
+p {
+  margin-left: 10px;
+  font-family: "Lora", serif;
+}
+
+p strong {
+  color: #1a2536;
 }
 
 .recommend {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
 }
 
 .recommend img {
-    width: 200px;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 10px;
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .recommend iframe {
-    margin-right: 20px;
-    margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .descricao {
-    max-width: 50%;
+  max-width: 50%;
+}
+
+footer {
+  background-color: #c7b6a2;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
 }
