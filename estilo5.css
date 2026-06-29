@@ -7,8 +7,17 @@
     gap: 25px;
 }
 
+.menu a:hover {
+    color: #1a2536;
+    border-bottom: 2px solid #c9a063;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
 body {
-    font-family: 'Inter', sans-serif;
     color: goldenrod;
     background: rgb(251, 236, 198);
     line-height: 2;
