@@ -1,0 +1,63 @@
+h1 {
+    color:black;
+    font-size:35px;
+    text-align:center;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:30px;
+    clear: both;
+    padding-top: 20px;
+}
+
+h2 {
+    color:black;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:30px;
+    clear: both;
+    padding-top: 20px;
+}
+
+p { 
+    color:black ;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:17px ;
+    padding-right: 150px;
+}
+
+.imagem {
+    width:250px ;
+    height:auto;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.inicio {
+    color:black;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:20px ;
+    padding-left: 40px;
+}
+.menu {
+    background-color: #c7b6a2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 25px;
+}
+
+.menu a:hover {
+    color: #1a2536;
+    border-bottom: 2px solid #c9a063;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    background-color: #d5c8b9;
+    overflow-x: auto;
+}
