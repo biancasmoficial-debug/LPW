@@ -1,41 +1,44 @@
 h1 {
-    text-align:center;
-    color:black;
+    text-align: center;
+    color: black;
     font-family: "Cinzel", serif;
-    font-size:38px;
+    font-size: 38px;
     clear: both;
     padding-top: 20px;
 }
 
 h2 {
-    color:black;
+    color: black;
     font-family: "Cinzel", serif;
-    font-size:37px;
+    font-size: 37px;
     clear: both;
     padding-top: 20px;
+    margin-left: 10px;
 }
 
-p { 
-    color:black ;
+p {
+    color: black;
     font-family: "Lora", serif;
-    font-size:17px ;
+    font-size: 17px;
     padding-right: 150px;
 }
 
 .imagem {
-    width:250px ;
-    height:auto;
+    width: 250px;
+    height: auto;
     float: left;
     margin-right: 15px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .inicio {
-    color:black;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size:20px ;
+    color: black;
+    font-family:"Lora", serif; 
+    font-size: 20px;
     padding-left: 40px;
 }
+
 #menu {
     display: flex;
     justify-content: space-evenly;
@@ -59,9 +62,10 @@ p {
     border-bottom: 2px solid #c9a063;
 }
 
-body{
+body {
     background-color: #d5c8b9;
     overflow-x: auto;
+    margin: 0;
 }
 
 nav {
@@ -76,29 +80,35 @@ header h1 {
     font-size: 30px;
 }
 
-#shimeji {
-  position: fixed;
-  bottom: 0;
-  left: 100px;
-
-  width: 96px;
-
-  user-select: none;
-  cursor: grab;
-
-  z-index: 999999;
-
-  transition: transform 0.15s linear;
-}
-footer {
+header {
   background-color: #c7b6a2;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  padding-top: 10px;
+}
+
+#shimeji {
+    position: fixed;
+    bottom: 0;
+    left: 100px;
+
+    width: 96px;
+
+    user-select: none;
+    cursor: grab;
+
+    z-index: 999999;
+
+    transition: transform 0.15s linear;
+}
+
+footer {
+    background-color: #c7b6a2;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    clear: both;
 }
 
 footer p {
-  margin: 0;
+    margin: 0;
 }
